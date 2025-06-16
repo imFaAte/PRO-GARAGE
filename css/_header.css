@@ -1,0 +1,51 @@
+.header {
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    padding: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight {
+    color: #F2653A;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px; /* Space between header top and hero section */
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+.header__nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav a {
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.header__nav a:hover {
+    color: #ff6b00; /* Example hover color */
+}
+
+.header__button {
+    background-color: #ff6b00;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.header__button:hover {
+    background-color: #e05e00; /* Darker shade on hover */
+} 

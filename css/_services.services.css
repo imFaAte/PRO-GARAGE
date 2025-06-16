@@ -1,0 +1,71 @@
+.service-item {
+    background-color: #2e2e2e;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+    flex: 0 0 calc(50% - 20px); /* Adjusted to take 50% minus half of the gap */
+    max-width: 500px; /* Keep max-width for larger screens */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Adjusted for more prominent shadow */
+}
+
+.service-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Space between header and list */
+}
+
+.service-number {
+    font-size: 32px; /* Adjusted font size */
+    font-weight: bold;
+    color: #f0f0f0; /* White text for the number */
+    background-color: #ff6b00; /* Orange background */
+    padding: 10px 20px; /* Padding for the badge effect */
+    border-radius: 5px; /* Slightly rounded corners */
+    /* display: inline-block; */ /* Removed as parent is flex container */
+    margin-right: 20px; /* Space between number and title */
+    /* vertical-align: middle; */ /* Removed as parent is flex container */
+}
+
+.service-item h3 {
+    font-size: 28px;
+    color: #f0f0f0;
+    margin-bottom: 0; /* Remove bottom margin as parent handles spacing */
+    /* display: inline-block; */ /* Removed as parent is flex container */
+    /* vertical-align: middle; */ /* Removed as parent is flex container */
+}
+
+.service-item ul {
+    list-style: none;
+    /* margin-top: 15px; */ /* Removed as service-header has margin-bottom */
+}
+
+.service-item ul li {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.service-item ul li::before {
+    content: '\2022'; /* Bullet point */
+    color: #ff6b00;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em; /* Adjusted bullet point size */
+}
+
+.service-image {
+    flex: 0 0 calc(50% - 20px); /* Adjusted to take 50% minus half of the gap */
+    max-width: 500px; /* Keep max-width for larger screens */
+}
+
+.service-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Adjusted for more prominent shadow */
+} 

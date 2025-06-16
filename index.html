@@ -1,0 +1,318 @@
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PRO GARAGE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/_base.css">
+        <link rel="stylesheet" href="css/_header.css">
+        <link rel="stylesheet" href="css/_hero.css">
+        <link rel="stylesheet" href="css/_testimonials.css">
+        <link rel="stylesheet" href="css/_services.css">
+        <link rel="stylesheet" href="css/_contact.css">
+        <link rel="stylesheet" href="css/_footer.css">
+        <link rel="stylesheet" href="css/_responsive.css">
+    </head>
+        
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__logo">PRO GARAGE</div>
+                        <ul class="header__nav" style="display: flex; gap: 20px;">
+                            <li><a href="#services">Услуги</a></li>
+                            <li><a href="#testimonials">Отзывы</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <button class="header__button" onclick="window.location.href='#contacts'">Заказать звонок</button>
+                </div>
+                <div class="hero">
+                    <div style="display: flex; flex-wrap: wrap;">
+                        <div style="display: flex; flex-basis: 50%; flex-grow: 1; flex-direction: column;">
+                            <div style="display: flex; flex-direction: column;">
+                                <h1><span class="highlight">Ухоженный </span>автомобиль — это тот, который увезёт вас далеко</h1>
+                                <button class="hero__button" onclick="window.location.href='#contacts'">Заказать звонок</button>
+                            </div>
+    
+                            <img src="images/hero.png" alt="hero" class="hero-image2" style="width: 80%;">
+                        </div>
+
+                        <img src="images/lixiang.png" alt="hero" class="hero-image" style="width: 50%;">
+                    </div>
+
+                    <div class="hero__stats">
+                        <div class="hero__stat-item">
+                            <span>300+</span>
+                            <p>Довольных клиентов</p>
+                        </div>
+                        <div class="hero__stat-item">
+                            <span>14+</span>
+                            <p>Лет на рынке</p>
+                        </div>
+                        <div class="hero__stat-item">
+                            <span>15+</span>
+                            <p>Сотрудников</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- About Us Section -->
+            <section class="about-us">
+                <div class="container">
+                    <div class="desc-container">
+                        <h2>Немного о нас</h2>
+                        <p>Дорогие друзья, приветствую вас на сайте нашей компании "Pro Garage"! Мы рады предложить вам широкий спектр высококачественных услуг по уходу за вашим автомобилем. Наша цель — не просто выполнить работу, а превзойти ваши ожидания, чтобы ваш автомобиль всегда выглядел безупречно и радовал вас своей надежностью и комфортом.</p>
+                    </div>
+                    <div class="testimonials" id="testimonials">
+                        <h3>Спасибо что доверяете нам</h3>
+                        <div class="slider-container">
+                            <div class="testimonial-grid" id="testimonial-grid">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-author-block">
+                                        <img src="images/user.webp" alt="Александр Петров" class="testimonial-avatar">
+
+                                        <div class="testimonial-review-data">
+                                            <p class="testimonial-author">Александр Петров, г. Краснодар</p>
+                                            <span class="testimonial-stars">★★★★★</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="testimonial-text">Отличный сервис! Сделали тонировку по ГОСТ, всё аккуратно и качественно. Мастера настоящие профессионалы своего дела.</p>
+                                </div>
+                                
+                                <div class="testimonial-item">
+                                    <div class="testimonial-author-block">
+                                        <img src="images/user.webp" alt="Елена Смирнова" class="testimonial-avatar">
+
+                                        <div class="testimonial-review-data">
+                                            <p class="testimonial-author">Елена Смирнова, г. Майкоп</p>
+                                            <span class="testimonial-stars">★★★★★</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="testimonial-text">Заказывала шумоизоляцию салона. Результат превзошёл все ожидания! Теперь в машине намного тише и комфортнее.</p>
+                                </div>
+
+                                <div class="testimonial-item">
+                                    <div class="testimonial-author-block">
+                                        <img src="images/user.webp" alt="Дмитрий Козлов" class="testimonial-avatar">
+
+                                        <div class="testimonial-review-data">
+                                            <p class="testimonial-author">Дмитрий Козлов, г. Белореченск</p>
+                                            <span class="testimonial-stars">★★★★★</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="testimonial-text">Сделали полировку кузова и бронирование фар. Машина выглядит как новая! Спасибо за профессионализм и внимательность к деталям.</p>
+                                </div>
+
+                                <div class="testimonial-item">
+                                    <div class="testimonial-author-block">
+                                        <img src="images/user.webp" alt="Мария Иванова" class="testimonial-avatar">
+
+                                        <div class="testimonial-review-data">
+                                            <p class="testimonial-author">Мария Иванова, г. Армавир</p>
+                                            <span class="testimonial-stars">★★★★★</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="testimonial-text">Очень довольна химчисткой салона. Убрали все пятна, запахи исчезли. Машина внутри как новая!</p>
+                                </div>
+
+                                <div class="testimonial-item">
+                                    <div class="testimonial-author-block">
+                                        <img src="images/user.webp" alt="Сергей Волков" class="testimonial-avatar">
+
+                                        <div class="testimonial-review-data">
+                                            <p class="testimonial-author">Сергей Волков, г. Краснодар</p>
+                                            <span class="testimonial-stars">★★★★★</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="testimonial-text">Заказывал оклейку цветной плёнкой. Работа выполнена идеально, без единого дефекта. Рекомендую!</p>
+                                </div>
+
+                                <div class="testimonial-item">
+                                    <div class="testimonial-author-block">
+                                        <img src="images/user.webp" alt="Анна Соколова" class="testimonial-avatar">
+
+                                        <div class="testimonial-review-data">
+                                            <p class="testimonial-author">Анна Соколова, г. Белореченск</p>
+                                            <span class="testimonial-stars">★★★★★</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="testimonial-text">Отличный сервис! Сделали атермальную тонировку, теперь в салоне намного прохладнее летом. Спасибо за качественную работу!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider-button slider-button--prev" id="dot-button-prev">&#10094;</button>
+                        <button class="slider-button slider-button--next" id="dot-button-next">&#10095;</button>
+
+                        <div class="slider-dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="services" id="services">
+                <div class="container">
+                    <h2>Какие услуги мы предоставляем?</h2>
+                    <div class="all-services-wrapper">
+                        <div class="service-block">
+                            <div class="service-item">
+                                <br>
+                                <div class="service-header">
+                                    <div class="service-number">#1</div>
+                                    <h3>Полная/частичная химчистка</h3>
+                                </div>
+                                <br>
+                                <ul>
+                                    <li>Химчистка салона автомобиля</li>
+                                    <li>Озонирование салона автомобиля</li>
+                                </ul>
+                            </div>
+                            <div class="service-image">
+                                <img src="images/1.PNG" alt="Химчистка">
+                            </div>
+                        </div>
+                        <div class="service-block">
+                            <div class="service-item">
+                                <br>
+                                <div class="service-header">
+                                    <div class="service-number">#2</div>
+                                    <h3>Оклейка бро-и/цветной плёнки</h3>
+                                </div>
+                                <br>
+                                <ul>
+                                    <li>Бронирование ЛКП</li>
+                                    <li>Бронирование фар</li>
+                                    <li>Оклейка цветной плёнки</li>
+                                </ul>
+                            </div>
+                            <div class="service-image">
+                                <img src="images/2.PNG" alt="Оклейка плёнкой">
+                            </div>
+                        </div>
+                        <div class="service-block">
+                            <div class="service-item">
+                                <br>
+                                <div class="service-header">
+                                    <div class="service-number">#3</div>
+                                    <h3>Полировка</h3>
+                                </div>
+                                <br>
+                                <ul>
+                                    <li>Полировка кузова автомобиля</li>
+                                </ul>
+                            </div>
+                            <div class="service-image">
+                                <img src="images/3.PNG" alt="Полировка">
+                            </div>
+                        </div>
+                        <div class="service-block">
+                            <div class="service-item">
+                                <br>
+                                <div class="service-header">
+                                    <div class="service-number">#4</div>
+                                    <h3>Тонировка</h3>
+                                </div>
+                                <br>
+                                <ul>
+                                    <li>Tонировка по ГОСТ</li>
+                                    <li>Тонировка атермальной плёнкой</li>
+                                </ul>
+                            </div>
+                            <div class="service-image">
+                                <img src="images/4.PNG" alt="Тонировка">
+                            </div>
+                        </div>
+                        <div class="service-block">
+                            <div class="service-item">
+                                <br>
+                                <div class="service-header">
+                                    <div class="service-number">#5</div>
+                                    <h3>Шумоизоляция</h3>
+                                </div>
+                                <br>
+                                <ul>
+                                    <li>Шумоизоляция дверей</li>
+                                    <li>Шумоизоляция пола</li>
+                                    <li>Шумоизоляция потолка</li>
+                                    <li>Шумоизоляция арок колес</li>
+                                </ul>
+                            </div>
+                            <div class="service-image">
+                                <img src="images/5.PNG" alt="Шумоизоляция">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-form" id="contacts">
+                <div class="container">
+                    <h2>Закажите звонок прямо сейчас</h2>
+                    <div class="form-wrapper">
+                        <h3>Ваша информация</h3>
+                        <form action="#" method="POST">
+                            <input type="text" placeholder="Имя..." required>
+                            <input type="tel" placeholder="Номер телефона..." required>
+                            <input type="text" placeholder="Время когда будет совершен звонок..." required>
+                            <button type="submit">Заказать звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__main">
+                    <h3>Мы ждём именно тебя</h3>
+
+                    <div class="footer__contacts">
+                        <div class="contact-item">
+                            <h4>Адрес</h4>
+                            <p>г.Белореченск, ул. Кочубея 3а</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>График работы</h4>
+                            <p>ежедневно, 09:00 - 19:00</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Номер телефона</h4>
+                            <p>- 7 989 198 - 08 - 08</p>
+                        </div>
+
+                        <nav class="footer__nav">
+                            <h4>О нас</h4>
+                            <ul>
+                                <li><a href="#services">Услуги</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
+                                <li><a href="#testimonials">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/_main.js"></script>
+        <script src="js/_form.js"></script>
+
+        <script src="js/testimonial-nav.js"></script>
+    </body>
+</html>
