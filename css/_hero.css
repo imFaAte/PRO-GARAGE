@@ -60,3 +60,19 @@
     font-size: 16px;
     color: #cccccc;
 } 
+
+   video {
+      width: 100%;
+      height: auto;
+      display: block; /* убирает лишние отступы */
+      max-width: 600px; /* при желании ограничить максимальную ширину */
+    }
+
+    .video__banner {  
+      width: 100%;
+      height: auto;
+      display: block; /* убирает лишние отступы */
+      max-width: 600px; /* при желании ограничить максимальную ширину */
+      border-radius: 40px;
+      margin: 40 auto;
+    }
